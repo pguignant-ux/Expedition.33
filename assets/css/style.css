@@ -4,12 +4,12 @@
 }
 
 @font-face {
-    font-family: Cinzel;
+    font-family: Cinzel_b;
     src: url(../fonts/static/Cinzel-Bold.ttf);
 }
 
 @font-face {
-    font-family: Cinzel;
+    font-family: Cinzel_eb;
     src: url(../fonts/static/Cinzel-ExtraBold.ttf);
 }
 
@@ -29,4 +29,50 @@ nav a {
 nav a:hover {
     text-decoration: underline white;
     color: lightgrey;
+}
+
+img {
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+
+.bannier {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+
+}
+
+
+
+.clair {
+
+    font-family: Cinzel;
+    letter-spacing: 1.5px;
+    border-bottom: 0.5px solid lightgrey;
+
+}
+
+.exp {
+    font-size: 3.5rem;
+    font-style: Cinzel_eb;
+    margin: 0;
+    color: beige;
+}
+
+.t33 {
+    font-size: 7rem;
+    margin: 0;
+    color: beige;
 }
