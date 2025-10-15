@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/static/Cinzel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/static/Cinzel-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/static/Cinzel-ExtraBold.ttf);
+}
