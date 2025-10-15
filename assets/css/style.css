@@ -13,32 +13,43 @@
     src: url(../fonts/static/Cinzel-ExtraBold.ttf);
 }
 
-NAV {
+body {
+    font-family: Cinzel;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
     display: flex;
     gap: 50px;
     justify-content: center;
-    background-color: black;
     padding: 20px;
 }
 
 nav a {
     color: white;
-    text-decoration: underline black;
+    border-bottom: 1px solid transparent;
 }
 
 nav a:hover {
-    text-decoration: underline white;
     color: lightgrey;
+    border-bottom: 1px solid white;
 }
 
-img {
-    display: flex;
-    width: 100%;
-    position: absolute;
-}
-
-.bannier {
-    height: 40vh;
+.banner {
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,29 +61,7 @@ img {
     background-position: center;
 
     color: white;
-
-
 }
 
-
-
-.clair {
-
-    font-family: Cinzel;
-    letter-spacing: 1.5px;
-    border-bottom: 0.5px solid lightgrey;
-
-}
-
-.exp {
-    font-size: 3.5rem;
-    font-style: Cinzel_eb;
-    margin: 0;
-    color: beige;
-}
-
-.t33 {
-    font-size: 7rem;
-    margin: 0;
-    color: beige;
-}
+.banner .main-logo {
+    max-width: 30%;
