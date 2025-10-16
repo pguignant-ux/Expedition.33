@@ -13,6 +13,13 @@
     src: url(../fonts/static/Cinzel-ExtraBold.ttf);
 }
 
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 body {
     font-family: Cinzel;
     margin: 0;
@@ -70,6 +77,16 @@ nav a:hover {
     max-width: 30%;
 }
 
+h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.intro h3 {
+    margin: 0;
+    font-size: medium;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -125,10 +142,17 @@ main {
 
 }
 
+.ACTU {
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+
 .info {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 0 0 50px 0
 }
 
 .carte {
@@ -138,8 +162,20 @@ main {
     align-items: center;
     width: 20%;
     overflow: hidden;
+    height: 400px;
 
 }
+
+.carte p {
+    font-size: x-small;
+    color: lightgrey;
+}
+
+.carte h4 {
+    font-size: small;
+    color: lightgrey;
+}
+
 
 .carte_contenue {
     padding: 20px;
@@ -147,4 +183,39 @@ main {
 
 .carte_contenue h4 {
     margin: 0;
+}
+
+.end {
+    display: flex;
+    background: linear-gradient(180deg, #161922, #0f1219);
+    justify-content: center;
+    padding: 10px 0 25px 0;
+    border-top: 1px solid rgb(70, 69, 69);
+    border-bottom: 1px solid rgb(70, 69, 69);
+
+}
+
+.end input {
+    background: black;
+    color: lightgrey;
+    width: 300px;
+    height: 30px;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 100;
+    font-size: xx-small;
+    background: linear-gradient(180deg, #161922, #0f1219);
+    color: lightgrey;
+
+
+}
+
+.foot.foot_in {}
+
+.foot img {
+    width: 5%;
 }
