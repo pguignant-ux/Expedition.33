@@ -29,6 +29,8 @@ img {
 
 header {
     background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -36,6 +38,7 @@ nav {
     gap: 50px;
     justify-content: center;
     padding: 20px;
+
 }
 
 nav a {
@@ -65,3 +68,85 @@ nav a:hover {
 
 .banner .main-logo {
     max-width: 30%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: black;
+    margin: 0;
+
+}
+
+.titre {
+    padding: 25px 0 0 0;
+    Margin: 0;
+    font-family: Cinzel_b;
+
+}
+
+.second {
+    font-family: Cinzel;
+    font-weight: 600;
+    color: rgb(253, 253, 188);
+}
+
+.intro p {
+    font-family: Cinzel;
+    font-size: xx-small;
+    color: lightgrey;
+}
+
+.btn_1 {
+
+    padding: 10px 30px 10px 30px;
+    margin: 10px 0 20px 0;
+    background-color: burlywood;
+    color: black;
+    border-radius: 5px;
+    box-shadow: inset white;
+
+}
+
+h2 {
+    color: burlywood;
+    font-family: Cinzel;
+    font-weight: 100;
+    font-size: medium;
+}
+
+main {
+    background-color: black;
+
+}
+
+.info {
+    display: flex;
+    width: 100%;
+
+    padding: 40px;
+    background-color: rgb(8, 6, 38);
+}
+
+.info {
+    width: 75%;
+    pad: 50px;
+    border-radius: 10%;
+
+}
+
+.info p,
+h4 {
+    color: white;
+}
+
+.carte {
+    pad: 50%;
+    width: 100%;
+    height: 40%;
+    paddin 50px;
+}
