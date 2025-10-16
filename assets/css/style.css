@@ -126,27 +126,19 @@ main {
 
 .info {
     display: flex;
-    width: 100%;
 
-    padding: 40px;
-    background-color: rgb(8, 6, 38);
-}
 
-.info {
-    width: 75%;
-    pad: 50px;
-    border-radius: 10%;
 
-}
 
-.info p,
-h4 {
-    color: white;
+
 }
 
 .carte {
-    pad: 50%;
-    width: 100%;
-    height: 40%;
-    paddin 50px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    background-color: blue;
+    align-items: center;
+
 }
