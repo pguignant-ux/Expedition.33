@@ -109,8 +109,9 @@ nav a:hover {
     color: black;
     border-radius: 5px;
     box-shadow: inset white;
-
 }
+
+.btn_1 :hover {}
 
 h2 {
     color: burlywood;
@@ -126,19 +127,24 @@ main {
 
 .info {
     display: flex;
-
-
-
-
-
+    justify-content: center;
+    gap: 30px;
 }
 
 .carte {
     border-radius: 8px;
-    padding: 5px;
-    margin: 15px;
     color: white;
-    background-color: blue;
+    background: linear-gradient(180deg, #161922, #0f1219);
     align-items: center;
+    width: 20%;
+    overflow: hidden;
 
+}
+
+.carte_contenue {
+    padding: 20px;
+}
+
+.carte_contenue h4 {
+    margin: 0;
 }
