@@ -25,6 +25,7 @@ body {
     margin: 0;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -125,10 +126,17 @@ h1 {
     background-color: burlywood;
     color: black;
     border-radius: 5px;
-    box-shadow: inset white;
+
+
 }
 
-.btn_1 :hover {}
+.btn_1:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 16px 4px rgb(84, 83, 83);
+}
+
+
+
 
 h2 {
     color: burlywood;
@@ -163,7 +171,12 @@ main {
     width: 20%;
     overflow: hidden;
     height: 400px;
+}
 
+.info :hover {
+    display: block solide;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 16px 4px rgb(84, 83, 83);
 }
 
 .carte p {
@@ -203,19 +216,34 @@ main {
 
 }
 
-.foot {
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: 100;
-    font-size: xx-small;
-    background: linear-gradient(180deg, #161922, #0f1219);
-    color: lightgrey;
-
-
+.end.btn_1 :hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 16px 4px white;
 }
 
-.foot.foot_in {}
+footer {
+    background: linear-gradient(180deg, #161922, #0f1219);
+    color: lightgrey;
+    height: 50px;
+}
 
-.foot img {
+footer img {
+    display: flex;
     width: 5%;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.foot {
+    display: flex;
+    gap: 50px;
+    font-weight: 100;
+    font-size: xx-small;
+    justify-content: flex-end;
+    padding: 15px 150px 15px 0;
+}
+
+.foot a:hover {
+    color: burlywood;
+
 }
