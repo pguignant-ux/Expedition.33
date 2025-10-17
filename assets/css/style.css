@@ -14,10 +14,18 @@
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
     padding: 0 20px;
+
+}
+
+
+
 }
 
 body {
@@ -25,6 +33,9 @@ body {
     margin: 0;
 }
 
+body h1::first-letter {
+    font-size: xx-large;
+}
 
 a {
     color: white;
@@ -78,11 +89,6 @@ nav a:hover {
     max-width: 30%;
 }
 
-h1 {
-    color: white;
-    margin-bottom: 0;
-}
-
 .intro h3 {
     margin: 0;
     font-size: medium;
@@ -106,6 +112,13 @@ h1 {
     font-family: Cinzel_b;
 
 }
+
+h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+
 
 .second {
     font-family: Cinzel;
@@ -174,7 +187,6 @@ main {
 }
 
 .info :hover {
-    display: block solide;
     transform: scale(1.05);
     box-shadow: 2px 2px 16px 4px rgb(84, 83, 83);
 }
@@ -247,3 +259,44 @@ footer img {
     color: burlywood;
 
 }
+
+@media (max-width:900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+    }
+
+    nav {
+        font-size: 65%;
+    }
+
+    .banner img {
+        max-width: 100%;
+        block-size: auto;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .carte {
+        width: 55%;
+    }
+
+
+    .foot {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 80%;
+        gap: 5px;
+        padding-left: 50px;
+    }
